@@ -1,0 +1,5 @@
+[
+  { "id": 1, "date": "2025-05-01", "description": "Grocery Store", "amount": -75.5, "type": "debit" },
+  { "id": 2, "date": "2025-05-02", "description": "Salary", "amount": 1500.0, "type": "credit" },
+  { "id": 3, "date": "2025-05-03", "description": "Utilities", "amount": -120.0, "type": "debit" }
+]
