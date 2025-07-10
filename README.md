@@ -1,37 +1,61 @@
-Online Banking (React Frontend)
+# Online Banking React Frontend
 markdown
 Copy
 Edit
-# 💰 Online Banking – React Frontend
+# 💳 Online Banking System – React Frontend
 
-This is the frontend of an **Online Banking System** built using **React.js** and **Vite**. It provides a modern, secure, and user-friendly interface for banking operations such as user login, account management, fund transfers, and transaction history display.
+A modern and secure online banking web application frontend built using **React.js + Vite**. It offers a clean interface for users to manage accounts, view transaction history, transfer money, and interact with their financial data.
+
+---
+
+## 🌐 Live Demo
+
+🔗 [Live Site](https://your-deployment-link.com)  
+_(Replace with actual GitHub Pages, Netlify, or Vercel link)_
+
+---
+
+## 📸 Screenshots
+
+### 🧑‍💼 Login Page  
+![Login Page](https://via.placeholder.com/1000x500?text=Login+Page)
+
+### 📊 User Dashboard  
+![Dashboard](https://via.placeholder.com/1000x500?text=User+Dashboard)
+
+### 💸 Transfer Funds Page  
+![Transfer Page](https://via.placeholder.com/1000x500?text=Transfer+Money)
+
+### 📜 Transaction History  
+![Transactions](https://via.placeholder.com/1000x500?text=Transaction+History)
 
 ---
 
 ## 📂 Project Structure
 
-online-banking-frontend/
+Online-Banking/
 ├── public/
 ├── src/
-│ ├── assets/ # Images, icons, logos
-│ ├── components/ # Reusable UI components (Navbar, Footer, Cards)
-│ ├── context/ # React Context for global state management
-│ ├── pages/ # Main application pages (Dashboard, Login, Register, Transactions)
-│ ├── routers/ # Routing configuration
-│ ├── services/ # API calls and service functions
-│ ├── App.jsx # Root component
-│ ├── main.jsx # Entry point
-│ └── index.css # Global styles
-├── .env # Environment variables
+│ ├── assets/
+│ ├── components/
+│ ├── context/
+│ ├── pages/
+│ ├── routers/
+│ ├── services/
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+├── .env
 ├── .gitignore
 ├── README.md
 ├── eslint.config.js
 ├── index.html
 ├── package.json
 ├── package-lock.json
+├── packege.json ← (⚠️ Likely a typo)
 ├── vite.config.js
 
-markdown
+yaml
 Copy
 Edit
 
@@ -39,63 +63,45 @@ Edit
 
 ## 🚀 Features
 
-- 🔐 **User Authentication** (Login, Register)
-- 🧾 **Transaction History**
-- 💳 **Account Summary**
-- 🔁 **Money Transfer Interface**
-- 🎯 **Role-based Access** (Admin/User)
-- ⚙️ **API Service Layer** using Axios
-- 💅 Fully responsive with modern UI design
+- 🔐 Login/Signup Authentication
+- 💼 Account Overview Dashboard
+- 💸 Fund Transfer Interface
+- 📜 Transaction History
+- 📲 Responsive Layout (Mobile-Friendly)
+- ⚙️ Connected to Spring Boot Backend
+- 🔒 Secure Routing and Form Handling
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend Framework**: React.js (with Vite)
+- **Frontend**: React.js (with Vite)
 - **Routing**: React Router DOM
-- **State Management**: React Context API
-- **HTTP Client**: Axios
-- **Styling**: Tailwind CSS / CSS Modules / SCSS (based on your setup)
+- **HTTP Requests**: Axios
+- **State Management**: Context API
+- **Styling**: Tailwind CSS or Custom CSS
 - **Linting**: ESLint
-- **Environment Variables**: `.env` for secure API base URLs
+- **Deployment**: GitHub Pages / Netlify / Vercel
 
 ---
 
-## 📦 Installation & Setup
+## ⚙️ Getting Started
 
-1. **Clone the Repository**
+### 🔧 Install & Run
+
 ```bash
-git clone https://github.com/yourusername/online-banking-frontend.git
-cd online-banking-frontend
-Install Dependencies
-
-bash
-Copy
-Edit
+git clone https://github.com/AnirudhYadav/online-banking.git
+cd online-banking
 npm install
-Setup Environment Variables
-
-Create a .env file at the root:
+npm run dev
+🔐 Setup .env
+Create a .env file in the root with:
 
 bash
 Copy
 Edit
 VITE_API_BASE_URL=http://localhost:8080/api
-Run the App
-
-bash
-Copy
-Edit
-npm run dev
-The app will run on: http://localhost:5173
-
-🌐 Backend Integration
-This frontend is designed to work with a Spring Boot-based backend (running on port 8080).
-Make sure the backend is up and running to enable full functionality.
-
-📸 Screenshots
-Login Page	Dashboard	Transfer Funds
-(Add Screenshot)	(Add Screenshot)	(Add Screenshot)
+Ensure your Spring Boot backend is running at the above URL.
 
 👨‍💻 Author
 **Anirudh Yadav**
@@ -106,8 +112,8 @@ Login Page	Dashboard	Transfer Funds
 🌐 Portfolio :) https://anirudhyadav2425.github.io/
 
 📄 License
-This project is licensed for educational and demonstration purposes.
-You can reuse the structure to build similar full-stack banking or financial dashboards.
+This project is licensed for educational/demo purposes.
+All logos and assets used are for non-commercial learning only.
 
 yaml
 Copy
@@ -115,10 +121,13 @@ Edit
 
 ---
 
-### ✅ Want me to:
+### 📁 Next Steps (Optional)
 
-- Save this as a `README.md` file in your folder?
-- Generate a matching backend `README.md` for Spring Boot?
-- Add screenshot placeholders or deploy instructions?
+Would you like me to:
+
+- Save this as a downloadable `README.md` file?
+- Replace placeholder screenshots with real ones from your app?
+- Generate a backend `README.md` (Spring Boot)?
+- Help deploy this to GitHub Pages / Netlify?
 
 Let me know!
