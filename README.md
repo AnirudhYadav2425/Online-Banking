@@ -1,7 +1,3 @@
-# Online Banking React Frontend
-markdown
-Copy
-Edit
 # 💳 Online Banking System – React Frontend
 
 A modern and secure online banking web application frontend built using **React.js + Vite**. It offers a clean interface for users to manage accounts, view transaction history, transfer money, and interact with their financial data.
